@@ -1,0 +1,116 @@
+
+
+
+							Web Revolution
+		
+			1. When was the first time you used internet ? Year
+					Global average : 2007
+			2. Why did you used internet fr in beginning
+					Global : information, emails, browsing, games, download songs
+			3. Where did you used internet : (Home / Cyber Cafe/College)
+			4. Source of internet (Phone / Lan)
+			5. Devise (Desktop / laptop)
+
+	It was easy for web developer to create this sites
+	-----------------------------------------------------------------------------------------
+			2. Why do you used internet fr in beginning
+				Everything : to attend training, shpping, social media
+			3. Where do you used internet
+				Everywhere
+			4. Source of internet
+				Mstly Mobile Data.		
+			5. Devise 
+				Mobile / tablets
+
+		
+	Mobile data - is comparatevely slow, fluctuating, but will want contents to flow all the time
+			slow, developer have to craete light weight pages
+	Devise Habbits has changed - use geolocation
+			 	     screen size is differetn
+			developer has to create a page which will fit all the screen size
+			Hardware - developers stored lots of details, images, files on client cache
+
+
+		Developer today has to create an app to meet the above requirement
+		
+		This change is named as web revolution - we need to move more of workingo n the client devise
+
+
+			Thus we need client centric framework, reducing roundtrips
+
+		W3C and ECMA collabrated to bring new languages
+			HTML5 - more advances, light weight and faster, more features	
+				semantic elements, goe location, web sockets, etc....
+			CSS3 - more features, transformation, transition, multi col layout, animation
+	          ES2015-ES6 - More advance Javascript with OOPS
+
+			this 3 languages makes a great client centric development
+				Problem was OOPS in JS style, everything is a function, class is a function
+
+
+		Java, .net, C++
+			public class Emplloyee {}
+
+		ES
+			Employee()
+			{
+			}
+
+	was very difficult to use this
+		thus microsoft came forward, took all the standards, as it was open source
+
+			created compilers, namespaces, classes, modules, keywords etc...made development same like our old way
+			and gave it to the world - named it as Typescript, made it opensource
+
+			Further Google went ahead, used this language and compilers and everything, 
+			Created a framework - Called it Angular
+
+
+			Facebook, took typescript,  used this language and compilers and everything, 
+			Created a framework - Called it React
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+
+
+			Tomorrow:
+			Angular APP Architecture
+			Angular Ecosystem
+			Start development wth 
+				Angular Components
