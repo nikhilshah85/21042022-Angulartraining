@@ -71,6 +71,46 @@
 
 
 
+		Angular works on NodeJS
+			Nodejs has NPM, which downloads all the packages for me
+			Angular CLI, command line interface
+
+		on a personal laptop, download node from nodejs.org
+		
+
+			node --version
+			 npm --version
+			 npm install @angular/cli -g   (this will install angular cli on ur machine)
+			 ng  --version
+			ng new firstangularapp 
+
+			ng new firstangularapp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

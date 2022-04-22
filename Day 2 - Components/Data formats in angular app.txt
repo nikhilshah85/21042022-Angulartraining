@@ -1,0 +1,28 @@
+1. Component
+
+	Components deals with 4 types of data
+	1. premitive data types (string, number, bool, any)
+		 productName="Pepsi";
+   		 productCategory='Cold-Drink';
+  		 productPrice= 50;
+ 		 productQty =30;
+ 		 productIsInStock = true;
+	2. Array of premitive data types (string, number, bool, any)
+		friends =['a','b','c']
+		empList= [101,102,108,109]
+	3. JSON Objects (we ususally recieve it from rest calls)
+		empDetails = {
+				empNo:101,
+				empName:'Nikhil',
+				empDesignation:'Consultant',
+				empSalary:5000
+			     };
+	4. JSON Array
+		empList = [
+				{empNo:101,empName:'Nikhil',empDesignation:'Consultant',empSalary:5000},
+				{empNo:102,empName:'Nikhil',empDesignation:'Consultant',empSalary:5000},
+				{empNo:103,empName:'Nikhil',empDesignation:'Consultant',empSalary:5000},
+				{empNo:104,empName:'Nikhil',empDesignation:'Consultant',empSalary:5000},
+				{empNo:105,empName:'Nikhil',empDesignation:'Consultant',empSalary:5000},
+				{empNo:106,empName:'Nikhil',empDesignation:'Consultant',empSalary:5000}
+			  ]

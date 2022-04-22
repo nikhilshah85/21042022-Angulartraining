@@ -1,0 +1,49 @@
+
+
+<div>
+    <h1> Product Name : {{ productName }}</h1>
+    <h3> Category : {{productCategory }} </h3>
+    <h3> Price : {{productPrice }} </h3>
+    <h3> Qty : {{ productQty }} </h3>
+    <h3> Is Available : {{ productIsInStock }} </h3>
+    <h2> My Stock Value : {{ productPrice *  productQty }}</h2>
+    <button  (click)="showProductDetails()"> Show Details </button>
+
+
+        <!-- We get "DIRECTIVES" feature in Angular for programming, like forloop, if, if else, switch etc -->
+<!-- 
+    <ul>
+        <li *ngFor="let f of friendslist"> {{ f }}</li>
+    </ul> -->
+
+    <select>
+        <option *ngFor="let f of friendslist"> {{ f }} </option>
+    </select>
+
+    <span *ngFor="let f of friendslist">
+        {{ f}} <input type="checkbox"/>
+    </span>
+
+
+
+
+
+
+
+
+
+<!-- 
+    <div class="productInfoDisplay">
+        <p> {{ productInfo.maker }}</p>
+        <p> {{ productInfo.dateofmanufacture }}</p>
+        <p> {{ productInfo.expiery }}</p>
+        <p> {{ productInfo.placeofManufacture }}</p>
+        <p> {{ productInfo.costOfManufacture }}</p>
+        <p> {{ productInfo.marketingCost }}</p>
+        <p> {{ productInfo.tax }}</p>
+        <p> Profit Margin : {{ productPrice -  (productInfo.costOfManufacture + productInfo.tax + productInfo.marketingCost) }}  </p>
+    </div> -->
+
+
+
+</div>
