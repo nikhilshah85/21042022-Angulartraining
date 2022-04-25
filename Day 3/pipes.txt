@@ -1,0 +1,23 @@
+emp2 = {empName:"Nikhil",empGender:'Male'}
+emp1 = {empName2:"Preeti",empGender:'Female'}
+
+
+
+			<h1> {emp1.empName}</h1> 
+			<h1> {emp2.empName} </h1>
+
+
+		output shuld be
+
+			Mr.Nikhil
+			Miss.Preeti 
+
+		we want to add a salutation pipe { emp1.empName | salute }
+
+		salate is a custom pipe here, we want to display the values on html
+
+		
+
+
+
+		

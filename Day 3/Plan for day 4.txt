@@ -1,0 +1,3 @@
+Create a custom pipe
+we look at Angular CLI - RAD (Rapid application development)
+Introduction - Serices

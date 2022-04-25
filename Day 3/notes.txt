@@ -1,0 +1,24 @@
+Angular Arch
+Files
+	Component 
+		HTML, CSS, JS
+
+		@Component({
+		selector:'componentName',
+		templateURL:' path to html file ',
+		styleurl:[' path to css','path to 2nd css'........]
+		}
+		class Employee
+		{
+			we deal with 4 types of data
+			1. Primitive data type
+			2. Primitive Array
+			3. Json object
+			4. Json Object Array (this is the data you mostly recieve from REST API calls, and then distribute the same
+						to other components, REST API calls are made in a Service class)
+			 
+
+		}
+
+
+

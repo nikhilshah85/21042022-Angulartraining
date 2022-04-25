@@ -1,0 +1,52 @@
+<h1> Emplyee Details</h1>
+
+
+<!-- Directives in Angular -->
+<!-- they start with * -->
+<!-- eg. *ngFor, *ngIf, *ngIfElse, *Switch, you can also create custom Directives -->
+
+
+<h3 style="text-align: right;"> {{dateofRelase | date : 'dd-MM-yy'}}</h3>
+
+
+
+ <input type="number" class="form-control" placeholder="Employee Number" #eno/> <br/>
+<input type="text" class="form-control" placeholder="Employee Name" #ename />  <br/>
+<input type="text" class="form-control" placeholder="Employee Designation" #edesignation/>  <br/>
+<input type="number" class="form-control" placeholder="Employee Salary" #esal />  <br/>
+<input type="number" class="form-control" placeholder="Employee Is Permenant" #epermenant/>  <br/>
+ 
+<button class="btn btn-primary" (click)="addNewEmployee(eno.value,ename.value,edesignation.value,esal.value,epermenant.value)"> Add Employee </button>
+<table class="table">
+  <tr *ngFor="let e of employeeDetails">
+    <td> {{ e.empNo}}</td>
+    <td> {{ e.empName | uppercase}}</td>
+    <td> {{ e.empDesignation}}</td>
+    <td> {{ e.empIsPermenant}}</td>
+    <td> {{ e.empSalary | currency : 'AUD'}}</td>      
+    <td> <button class="btn btn-success">Add</button></td>      
+    <td> <button class="btn btn-warning">Edit </button></td>      
+    <td> <button class="btn btn-danger">Delete</button></td>      
+  </tr>
+</table> 
+
+<!-- <div *ngFor="let e of employeeDetails">
+    <div class="empDetails">
+        <hr/>
+        <h1> Employee : {{ e.empName}} ( {{e.empNo}})</h1>
+        <h2> Designation: {{ e.empDesignation}} </h2>
+        <h2> Salary : {{ e.empSalary }} </h2>
+        <h2> CTC : {{ e.empSalary * 12 }}</h2>
+        <h2  class="*ngIf=e.empIsPermenant empDetailsGreen;else empDetailsRed"> Is Permenant : {{ e.empIsPermenant }}</h2>
+
+    </div>
+</div> -->
+
+
+
+
+<!-- 
+<h1> {{ 'Nikhil' | uppercase }} </h1>
+<h1> {{ 'Nikhil' | lowercase }} </h1>
+<h1> {{ 'nikhil' | titlecase }} </h1>
+<h1> {{ developerName | titlecase}}</h1> -->
