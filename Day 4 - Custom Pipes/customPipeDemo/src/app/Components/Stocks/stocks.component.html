@@ -1,0 +1,31 @@
+
+<table border="1">
+    <thead>
+        <tr>
+            <th> Id</th>
+            <th> Stock</th>
+            <th> Purchase</th>
+            <th> Current</th>
+            <th> Qty</th>
+            <th> Investment Value </th>
+            <th> Current Value</th>               
+            <th> Status </th>
+            </tr>
+    </thead>
+    <tr *ngFor="let s of stockHoldings">
+        <td> {{ s.stockid }} </td>
+        <td> {{ s.stockName }} </td>
+        <td> {{ s.stockPurchase }} </td>
+        <td> {{ s.stockCurrentPrice }} </td>
+        <td> {{ s.stockQty }} </td>
+        <td> {{ s.stockPurchase * s.stockQty }} </td>
+        <td> {{ s.stockCurrentPrice * s.stockQty }} </td>
+        <td>
+            {{ s.stockName| investmentresult : s.stockPurchase : s.stockCurrentPrice }}
+        </td>
+
+         </tr>
+</table>
+
+   
+

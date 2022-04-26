@@ -1,0 +1,11 @@
+
+
+<button (click)="addNewGuest()">Add New Guest</button>
+
+<table>
+    <tr *ngFor="let g of guestDetails">
+        <td>{{ g.gId }}</td>      
+        <td>{{ g.gGender | gendergreetings : g.gName : g.gLastName}}</td>
+        <td>{{ g.gAge }}</td>
+    </tr>
+</table>
